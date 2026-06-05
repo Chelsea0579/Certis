@@ -1,0 +1,3 @@
+CoDEx-M                https://github.com/tsafavi/codex
+FB15k-237              pykeen.datasets.FB15k237
+FB15k-237 entity2text  https://github.com/yao8839836/kg-bert/tree/master/data/FB15k-237

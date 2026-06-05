@@ -1,0 +1,36 @@
+{
+  "model_family": "Logistic Regression on 10 features + 5-fold OOF isotonic calibration",
+  "features": [
+    "L_conf",
+    "Q35_conf",
+    "M_conf",
+    "Q_conf",
+    "log_cohort",
+    "log_h_deg",
+    "log_t_ind",
+    "log_rel_freq",
+    "log_shared_n",
+    "transe_dist"
+  ],
+  "delta_R": 0.025,
+  "delta_C": 0.025,
+  "K_thresholds": 7,
+  "target": {
+    "U_R_max": 0.08,
+    "L_C_min": 0.9
+  },
+  "model_hashes": {
+    "codex-m": null,
+    "fb15k-237": null
+  },
+  "final_thresholds": {
+    "codex-m": null,
+    "fb15k-237": null
+  },
+  "frozen_seeds": [
+    42,
+    1,
+    7,
+    100
+  ]
+}

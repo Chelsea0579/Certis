@@ -1,0 +1,16 @@
+# Python >=3.9
+torch>=2.4,<2.7
+transformers>=4.44,<4.47
+pykeen>=1.10,<1.12
+scikit-learn>=1.4,<1.6
+scipy>=1.11
+numpy>=1.24,<2.0
+pandas>=2.0,<2.3
+nltk>=3.8
+tqdm>=4.65
+wandb>=0.16
+langchain>=0.3,<0.4
+langchain-community>=0.3,<0.4
+langchain-experimental>=0.3,<0.4
+faiss-cpu>=1.8
+sentence-transformers>=3.0
